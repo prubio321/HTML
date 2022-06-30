@@ -11,6 +11,38 @@
 <body>
     <h1>Estoy en la pagina 2</h1>
     <a href="index.html">Volver a la pagina principal</a>
+    <br>
+    <!--Radio button-->
+    <!--Name deben ser iguales, por que solo se selecciona una opcion-->
+    <h2>Seleccione una opcion</h2>
+    <input type="radio" name="opcion" id="html" value="html">HTML<br>
+    <input type="radio" name="opcion" id="css" value="css">CSS<br>
+    <input type="radio" name="opcion" id="js" value="js">JS<br>
+    <br>
+    <hr>
+
+    <!--checkbox-->
+    <!--url?opciones1=html&opciones2=css-->
+    <!--el label en el for va el id del input-->
+    <input type="checkbox" name="opciones1" id="opciones1" value="html"><label for="opciones1">HTML</label><br>
+    <input type="checkbox" name="opciones2" id="opciones2" value="css"><label for="opciones2">CSS</label><br>
+    <input type="checkbox" name="opciones3" id="opciones3" value="js"><label for="opciones3">JS</label><br>
+    <br>
+    <hr>
+    <!--select-->
+    <h2>Seleccione una opcion</h2>
+    <!--lenguajes = 0 para guiar y saber si el usuario no selecciono nada-->
+    <select id="lenguajes" name="lenguajes"><!--multiple para seleccionar varias opciones-->
+        <option value="0" selected>Seleccione un lenguaje</option>
+        <option value="1">Java</option>
+        <option value="2">Python</option>
+        <option value="3">JavaScript</option>
+        <option value="4">C#</option>
+        <option value="5">Ruby</option>
+
+    </select>
+
+
 </body>
 
 </html>
