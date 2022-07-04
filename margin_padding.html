@@ -22,14 +22,29 @@
             width: 40px;
             height: 40px;
             background-color: blueviolet;
+            display: inline-block;
         }
-        /*margin efecto optico de desplazamiento*/
-        /*desplazar internamente elementos*/
+        /*margin: efecto optico de desplazamiento*/
+        /*padding: desplazar internamente elementos*/
+        /*elementos inline <a><img><input><label><select><textarea>*/
+        /*elementos block <body><div><form><h1>-<h6><p><table><ul><ol><li>*/
+        /*NUNCA PONER ELEMENTOS DE BLOQUE DENTRO DE UN ELEMENTO INLINE, AL REVES SI*/
         
         #hijo2 {
             width: 40px;
             height: 40px;
             background-color: salmon;
+            display: inline-block;
+        }
+        
+        a {
+            display: block;
+            background-color: silver;
+            width: 100px;
+        }
+        
+        p {
+            display: inline-block;
         }
     </style>
 </head>
@@ -39,6 +54,18 @@
         <div id="hijo"></div>
         <div id="hijo2"></div>
     </div>
+    <br>
+    <!--block-->
+    <a href="#grupo1">grupo 1</a>
+    <a href="#grupo2">grupo 2</a>
+    <a href="#grupo3">grupo 3</a>
+    <a href="#grupo4">grupo 4</a>
+    <a href="#grupo5">grupo 5</a>
+    <a href="#grupo6">grupo 6</a>
+    <!---->
+    <p>sdfklsdfjñsdalkjfsdklfjskdf</p>
+    <p>dsfñlp4terotipeortiopiewrot</p>
 </body>
+
 
 </html>
