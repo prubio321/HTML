@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport responsibidad-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title nos permite ver la pestaña en el browser-->
+    <title>Elementos HTML</title>
+</head>
+
+<body>
+    <!-- Headings-->
+    <h1>Titulo h1</h1>
+    <h2>Titulo h2</h2>
+    <h3>Titulo h3</h3>
+    <h4>Titulo h4</h4>
+    <h5>Titulo h5</h5>
+    <h6>Titulo h6</h6>
+    <!--salto de linea-->
+    <br>
+    <!--linea horizontal-->
+    <hr>
+    <!--parrafos para trabajar con texto-->
+    <p>
+        hola, gola fola tola <b>dola</b> <i>jola</i> <u>rola</u>
+    </p>
+    <p><b><i><u>Paulino Rogers Rubio Herrera</u></i></b></p>
+    <!--salto de linea y linea vertical-->
+    <br>
+    <hr>
+    <!--imagenes-->
+    <!--src source, alternative(nombre sino carga la imagen)-->
+    <img src="imagen.png" alt="imagen1">
+    <img src="/assets/img/html.png" alt="imagen1" width="50" height="50">
+    <!--al agregar solo width o height, la imagen mantendra la proporcion-->
+    <img src="/assets/img/53j.png" alt="imagen2" height="100">
+    <br>
+    <hr>
+    <!--link o hipervinculos-->
+    <a href="https://www.generation.org">Visitar Generation</a>
+    <br>
+    <!--url valor absoluto, redirige a otra pagina web-->
+    <!--target="_blank"abre la pagina en otra pestaña-->
+    <a href="https://www.lun.com" target="_blank">acceder a Lun.com</a>
+    <!--url valor relativo, redirige dentro de la misma pagina web -->
+    <a href="pagina2.html">Ir a la pagina 2</a>
+    <!--url valor anclaje, movernos dentro de la pagina web -->
+    <a href="#nombre">ir a la seccion de la pagina</a>
+    <!---->
+    <a href="https://www.generation.org" target="_blank">
+        <img src="/assets/img/imagengeneration.png" alt="you employed" width="50">
+    </a>
+    <br>
+    <hr>
+    <!--listas: ordenadas li-->
+    <ol>
+        <li>grupo1</li>
+        <li>grupo2</li>
+        <li>grupo3</li>
+        <li>grupo4</li>
+        <li>grupo5</li>
+        <li>grupo6</li>
+        <li>grupo7
+            <ol>
+                <li>grupo7.1</li>
+                <li>grupo 7.2</li>
+            </ol>
+        </li>
+    </ol>
+
+    <!--listas: no ordenadas ul-->
+    <ul>
+        <li>grupo1</li>
+        <li>grupo2</li>
+        <li>grupo3</li>
+        <li>grupo4</li>
+        <li>grupo5</li>
+        <li>grupo6</li>
+        <li>grupo7
+            <ul>
+                <li>grupo7.1</li>
+                <li>grupo 7.2</li>
+                <li>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li>curso b</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!--
+    <ul>
+        <c:forEach items="${lista}" var="item">
+            <li>${item}</li>
+        </c:forEach>
+    </ul>-->
+    <br>
+    <hr>
+    <!--tablas-->
+    <table>
+        <thead>
+            <tr>
+                <th>Edad</th>
+                <th>Nombre</th>
+                <th>Apellido1</th>
+                <th>Apellido2</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>28</td>
+                <td>Paulino</td>
+                <td>Rubio</td>
+                <td>Herrera</td>
+            </tr>
+            <tr>
+                <td>32</td>
+                <td>Manuel</td>
+                <td>Rubio</td>
+                <td>Herrera</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>
